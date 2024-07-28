@@ -1,1 +1,13 @@
-{{CODIGO INICIAL}}
+def adicionar_ponto_extra(nota):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(adicionar_ponto_extra(8.5))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert adicionar_ponto_extra(8.5) == 9.5
+assert adicionar_ponto_extra(10.0) == 10.0
+assert adicionar_ponto_extra(9.6) == 10.0
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
